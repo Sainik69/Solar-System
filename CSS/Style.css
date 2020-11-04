@@ -40,6 +40,74 @@ body {
 #navbar ul li:nth-child(2) {
    color: green;
 }
+/* Navbar */
+#navbar {
+   position: fixed;
+   width: 100%;
+   float: right;
+   background: #7780d1;
+}
+#navbar h1 {
+   position: fixed;
+   padding-top: 13px;
+   font-size: 2rem;
+   color: yellow;
+}
+#navbar ul {
+   display: flex;
+   float: right;
+   list-style: none;
+   margin: 5px;
+}
+#navbar ul li {
+   margin: 1px;
+   padding: 15px;
+}
+#navbar ul li a {
+   text-decoration: none;
+   color: yellow;
+   font-weight: bold;
+}
+#navbar ul li a:hover {
+   color: red;
+}
+#navbar ul li:nth-child(2) {
+   color: green;
+}
+/* Navbar */
+.navbar {
+   position: fixed;
+   width: 100%;
+   float: right;
+   background: #7780d1;
+}
+.navbar h1 {
+   position: fixed;
+   padding-top: 13px;
+   font-size: 2rem;
+   color: yellow;
+}
+.navbar ul {
+   display: flex;
+   float: right;
+   list-style: none;
+   margin: 5px;
+}
+.navbar ul li {
+   margin: 1px;
+   padding: 15px;
+}
+.navbar ul li a {
+   text-decoration: none;
+   color: yellow;
+   font-weight: bold;
+}
+.navbar ul li a:hover {
+   color: red;
+}
+.navbar ul li:nth-child(2) {
+   color: green;
+}
 /* Image */
 #showcase .content {
    background: url('https://www.quickanddirtytips.com/sites/default/files/images/6134/solar_system.jpg') no-repeat fixed top/cover;
@@ -150,4 +218,40 @@ footer p {
    background: yellow;
    color: green;
    font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+   .navbar {
+      position: static;
+   }
+   .navbar ul {
+      display: block;
+      float: none;
+   }
+   .navbar ul li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 70px;
+   }
+}
+@media (max-width: 600px) {
+   #navbar {
+      position: static;
+   }
+   #navbar ul {
+      display: block;
+      float: none;
+   }
+   #navbar ul li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   #navbar ul li:nth-child(1) {
+      padding-top: 70px;
+   }
 }
