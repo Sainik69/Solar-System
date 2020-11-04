@@ -1,0 +1,153 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: 'Raleway', sans-serif;
+}
+/* Navbar */
+#navbar {
+   position: fixed;
+   width: 100%;
+   float: right;
+   background: #7780d1;
+}
+#navbar h1 {
+   position: fixed;
+   padding-top: 13px;
+   font-size: 2rem;
+   color: yellow;
+}
+#navbar ul {
+   display: flex;
+   float: right;
+   list-style: none;
+   margin: 5px;
+}
+#navbar ul li {
+   margin: 1px;
+   padding: 15px;
+}
+#navbar ul li a {
+   text-decoration: none;
+   color: yellow;
+   font-weight: bold;
+}
+#navbar ul li a:hover {
+   color: red;
+}
+#navbar ul li:nth-child(2) {
+   color: green;
+}
+/* Image */
+#showcase .content {
+   background: url('https://www.quickanddirtytips.com/sites/default/files/images/6134/solar_system.jpg') no-repeat fixed top/cover;
+   width: 100%;
+   height: 100vh;
+}
+#showcase .content h1 {
+   padding: 325px 0 0 0;
+   font-size: 4rem;
+}
+#showcase .content h4 {
+   font-size: 2.5rem;
+   padding: 20px;
+}
+#showcase .content h1, h4 {
+   color: #fff;
+   width: 100%;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.showcase #content {
+   background: url('https://upload.wikimedia.org/wikipedia/commons/c/cb/Planets2013.svg') no-repeat fixed top/cover;
+   width: 100%;
+   height: 100vh;
+}
+.showcase #content h1 {
+   padding: 325px 0 0 0;
+   font-size: 4rem;
+}
+.showcase #content h4 {
+   font-size: 2.5rem;
+   padding: 20px;
+}
+.showcase #content h1, h4 {
+   color: #fff;
+   width: 100%;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+/* Section */
+#download {
+   padding-top: 60px;
+   background: gold;
+}
+#download h1 {
+   font-size: 3rem;
+   padding: 10px;
+}
+#download h2 {
+   font-size: 2rem;
+   padding: 10px;
+}
+#download a {
+   display: flex;
+   text-align: justify;
+   align-items: center;
+   justify-content: center;
+   line-height: 1.4;
+   padding: 5px;
+   margin: 7px;
+   font-size: 28px;
+   text-decoration: none;
+   background: #7780d1;
+   color: #bb4141;
+   border: none;
+   border-radius: 5px;
+}
+#download a:hover {
+   color: #7780d1;
+   background: #bb4141;
+   transition: all 1s ease-in-out;
+}
+#download p {
+   font-weight: bold;
+   font-size: 24px;
+   padding: 10px;
+}
+#info {
+   background: green;
+}
+#info h1 {
+   text-align: center;
+   padding: 10px;
+   font-weight: bold;
+   font-size: 2rem;
+   position: static;
+}
+#info p {
+   text-align: justify;
+   padding: 10px;
+   font-weight: bold;
+   font-size: 20px;
+   position: static;
+}
+#info .planet {
+   border-bottom: gold 2px dotted;
+}
+#info .planet:nth-child(1) {
+   border-top: gold 2px dotted;
+}
+/* Footer */
+footer p {
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
+   background: yellow;
+   color: green;
+   font-weight: bold;
+}
