@@ -1,0 +1,33 @@
+/* Hide Nested Ul's by Default */
+.navbar ul li {
+   position: relative;
+}
+.navbar ul li ul {
+   display: none;
+}
+.navbar ul li:hover {
+   cursor: pointer;
+   color: red;
+}
+.navbar ul li:hover a {
+   color: red;
+}
+/* Nested Dropdown Show */
+.navbar ul li:hover ul {
+   display: block;
+   position: absolute;
+   background-color: blue;
+   left: 0;
+   width: 100px;
+}
+.navbar ul li:hover ul li {
+   display: block;
+}
+.navbar ul li:hover ul li a {
+   color: yellow;
+   padding: 5px;
+}
+.navbar ul li:hover ul li a:hover {
+   color: red;
+   font-weight: bold;
+}

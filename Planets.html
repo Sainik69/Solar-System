@@ -7,6 +7,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="./CSS/Menu.css">
    <link rel="stylesheet" href="./CSS/Style.css">
+   <link rel="stylesheet" href="./CSS/Dropdown.css">
    <link rel="shortcut icon" type="image/x-icon" href="./HS Icon.png">
    <title>Solar System ¦ Planets</title>
 </head>
@@ -30,7 +31,18 @@
       <nav class="navbar">
          <a href="Index.html"><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-globe"></i> Solar System</h1></a>
          <ul>
-            <li><a href="#mercury">All the Planets</a></li>
+            <li><a href="#home">All the Planets <i class="fas fa-chevron-down"></i></a>
+               <ul>
+                  <li><a href="#mercury">Mercury</a></li>
+                  <li><a href="#venus">Venus</a></li>
+                  <li><a href="#earth">Earth</a></li>
+                  <li><a href="#mars">Mars</a></li>
+                  <li><a href="#jupiter">Jupiter</a></li>
+                  <li><a href="#saturn">Saturn</a></li>
+                  <li><a href="#uranus">Uranus</a></li>
+                  <li><a href="#neptune">Neptune</a></li>
+               </ul>
+            </li>
          </ul>
       </nav>
       <div class="showcase">
@@ -142,7 +154,7 @@
 
              $('html, body').animate(
                  {
-                     scrollTop: $(hash).offset().top - 75,
+                     scrollTop: $(hash).offset().top - 63,
                  },
                  800
              );
