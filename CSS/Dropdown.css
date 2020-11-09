@@ -31,3 +31,14 @@
    color: red;
    font-weight: bold;
 }
+/* Media Queries */
+@media (max-width: 500px) {
+   .navbar {
+      position: fixed;
+      display: flex;
+      flex-direction: row-reverse;
+   }
+   .navbar > ul {
+      display: block;
+   }
+}
