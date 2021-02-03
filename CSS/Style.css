@@ -11,13 +11,13 @@ body {
    position: fixed;
    width: 100%;
    float: right;
-   background: #7780d1;
+   background: #8d93cc;
 }
 #navbar h1 {
    position: fixed;
    padding-top: 13px;
    font-size: 2rem;
-   color: yellow;
+   color: rgb(91, 146, 91);
 }
 #navbar ul {
    display: flex;
@@ -31,7 +31,7 @@ body {
 }
 #navbar ul li a {
    text-decoration: none;
-   color: yellow;
+   color: rgb(91, 146, 91);
    font-weight: bold;
 }
 #navbar ul li a:hover {
@@ -45,13 +45,13 @@ body {
    position: fixed;
    width: 100%;
    float: right;
-   background: #7780d1;
+   background: #8d93cc;
 }
 #navbar h1 {
    position: fixed;
    padding-top: 13px;
    font-size: 2rem;
-   color: yellow;
+   color: rgb(91, 146, 91);
 }
 #navbar ul {
    display: flex;
@@ -65,7 +65,7 @@ body {
 }
 #navbar ul li a {
    text-decoration: none;
-   color: yellow;
+   color: rgb(91, 146, 91);
    font-weight: bold;
 }
 #navbar ul li a:hover {
@@ -79,13 +79,13 @@ body {
    position: fixed;
    width: 100%;
    float: right;
-   background: #7780d1;
+   background: #8d93cc;
 }
 .navbar h1 {
    position: fixed;
    padding-top: 13px;
    font-size: 2rem;
-   color: yellow;
+   color: rgb(91, 146, 91);
 }
 .navbar ul {
    display: flex;
@@ -99,7 +99,7 @@ body {
 }
 .navbar ul li a {
    text-decoration: none;
-   color: yellow;
+   color: rgb(91, 146, 91);
    font-weight: bold;
 }
 .navbar ul li a:hover {
@@ -110,13 +110,24 @@ body {
 }
 /* Image */
 #showcase .content {
-   background: url('https://www.quickanddirtytips.com/sites/default/files/images/6134/solar_system.jpg') no-repeat fixed top/cover;
+   background: url('https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/solarsystem_0.jpeg') no-repeat fixed top/cover;
    width: 100%;
    height: 100vh;
 }
 #showcase .content h1 {
    padding: 325px 0 0 0;
    font-size: 4rem;
+}
+#showcase .content h5 {
+   padding: 325px 0 0 0;
+   text-align: center;
+   font-size: 1rem;
+}
+#showcase .content h5 a {
+   color: yellow;
+   text-decoration: none;
+   background-color: rgb(107, 167, 67);
+   padding: 20px;
 }
 #showcase .content h4 {
    font-size: 2.5rem;
@@ -188,7 +199,7 @@ body {
    padding: 10px;
 }
 #info {
-   background: green;
+   background: honeydew;
 }
 #info h1 {
    text-align: center;
@@ -205,10 +216,10 @@ body {
    position: static;
 }
 #info .planet {
-   border-bottom: gold 2px dotted;
+   border-bottom: darkblue 4px solid;
 }
 #info .planet:nth-child(1) {
-   border-top: gold 2px dotted;
+   border-top: darkblue 4px solid;
 }
 /* Footer */
 footer p {
@@ -218,6 +229,33 @@ footer p {
    background: yellow;
    color: green;
    font-weight: bold;
+}
+
+/* Quiz */
+#quiz {
+   background: rgb(240, 255, 240);
+}
+#quiz .question label {
+   margin: 10px;
+   color: red;
+   font-size: 20px;
+}
+#quiz .question input {
+   margin: 10px;
+   font-size: large;
+}
+.btn-dark {
+   color: lightblue;
+   background: darkred;
+   font-weight: bold;
+   padding: 10px;
+   margin: 5px;
+   border-radius: 5px;
+}
+.btn-dark:hover {
+   background: darkblue;
+   color: rgb(223, 109, 109);
+   cursor: pointer;
 }
 
 /* Media Queries */
